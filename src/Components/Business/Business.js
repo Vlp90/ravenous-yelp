@@ -12,7 +12,7 @@ const business = {
   rating: 4.5,
   reviewCount: 90,
 };
-console.log(business);
+// console.log(business);
 
 export default class Business extends Component {
   render() {
