@@ -24,7 +24,7 @@ export default class Business extends Component {
         <h2>{business.name}</h2>
         <div className="Business-information">
           <div className="Business-address">
-            <p>{business.adress}</p>
+            <p>{business.address}</p>
             <p>{business.city}</p>
             <p>{business.zipCode}</p>
           </div>

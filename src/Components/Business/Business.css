@@ -50,3 +50,18 @@
     font-size: .88rem;
     line-height: 1rem;
   }
+  .image-container {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -ms-flex-pack: center;
+      justify-content: center;
+      overflow: hidden;
+      background: #000;
+      
+  }
+
+  .image-container img {
+    width: 100%;
+}
