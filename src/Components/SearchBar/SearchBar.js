@@ -13,8 +13,10 @@ export default class SearchBar extends Component {
   renderSortByOptions() {
     return Object.keys(sortByOptions).map((sortByOption) => {
       let sortByOptionValue = sortByOptions[sortByOption];
-      return <li key={sortByOption}> {sortByOptionValue} </li>;
+      return <li key={sortByOptionValue}> {sortByOption} </li>;
     });
+
+    
   }
 
   render() {
@@ -22,7 +24,8 @@ export default class SearchBar extends Component {
         <div className="SearchBar">
         <div className="SearchBar-sort-options">
           <ul>
-          {this.renderSortByOptions}
+          {/* <li>Vlad</li> */}
+          {this.renderSortByOptions()}
             {/* <!-- Use .renderSortByOptions() to sort the businesses by their options --> */}
           </ul>
         </div>
